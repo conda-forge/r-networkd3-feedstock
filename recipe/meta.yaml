@@ -15,7 +15,7 @@ source:
   sha256: 33b82585f1eec6233303ec14033a703d0b17def441c7a0a67bf7e6764c9c9d0b
 
 build:
-  number: 0
+  number: 1
   # igraph is not available for windows
   skip: true  # [win]
   rpaths:
@@ -47,5 +47,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - dpryan79
     - johanneskoester
     - bgruening
