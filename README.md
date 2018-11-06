@@ -7,7 +7,7 @@ Package license: GPL (>= 3)
 
 Feedstock license: BSD 3-Clause
 
-Summary: Creates 'D3 JavaScript network, tree, dendrogram, and Sankey graphs from R.
+Summary: Creates 'D3' 'JavaScript' network, tree, dendrogram, and Sankey graphs from 'R'.
 
 
 
@@ -16,7 +16,7 @@ Current build status
 
 [![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-networkd3-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-networkd3-feedstock)
 [![OSX](https://img.shields.io/travis/conda-forge/r-networkd3-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-networkd3-feedstock)
-![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-networkd3-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-networkd3-feedstock/branch/master)
 
 Current release info
 ====================
