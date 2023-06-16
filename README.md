@@ -1,11 +1,11 @@
-About r-networkd3
-=================
+About r-networkd3-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-networkd3-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=networkD3
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-networkd3-feedstock/blob/main/LICENSE.txt)
 
 Summary: Creates 'D3' 'JavaScript' network, tree, dendrogram, and Sankey graphs from 'R'.
 
