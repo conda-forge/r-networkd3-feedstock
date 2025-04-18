@@ -1,4 +1,4 @@
-{% set version = '0.4' %}
+{% set version = "0.4.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,11 +9,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/networkD3_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/networkD3/networkD3_{{ version }}.tar.gz
-  sha256: 33b82585f1eec6233303ec14033a703d0b17def441c7a0a67bf7e6764c9c9d0b
+  sha256: 5be36aa5dd3722b1cd52a149c50af2dbef0714b2dab2b4dbf7552c628925f64e
 
 build:
   noarch: generic
-  number: 1007
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -23,13 +23,17 @@ requirements:
     - {{ posix }}zip               # [win]
   host:
     - r-base
+    - r-data.tree
     - r-htmlwidgets >=0.3.2
     - r-igraph
+    - r-jsonlite
     - r-magrittr
   run:
     - r-base
+    - r-data.tree
     - r-htmlwidgets >=0.3.2
     - r-igraph
+    - r-jsonlite
     - r-magrittr
 
 test:
@@ -42,7 +46,8 @@ about:
   license: GPL-3.0-or-later
   summary: Creates 'D3' 'JavaScript' network, tree, dendrogram, and Sankey graphs from 'R'.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+  license_file:
+    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
